@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash & Style | Premium Swimwear</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER BLOCK -->
+    <header>
+        <div class="logo">SPLASH<span>&STYLE</span></div>
+        <div class="subtitle">Next-Gen Beachwear | Trends 21–35 Jahre</div>
+        
+        <!-- NEU: Interaktiver Warenkorb-Button im Header -->
+        <div class="cart-nav-container">
+            <button class="cart-toggle-btn" id="cartToggleBtn">
+                🛒 Warenkorb (<span id="cartCount">0</span>)
+            </button>
+        </div>
+
+        <div class="nav-tabs">
+            <button class="tab-btn active" data-gender="all">Alle</button>
+            <button class="tab-btn" data-gender="damen">Damen</button>
+            <button class="tab-btn" data-gender="herren">Herren</button>
+        </div>
+    </header>
+
+    <!-- INTERAKTIVER FILTER -->
+    <div class="filter-container">
+        <div class="filter-title">Schnittform auswählen:</div>
+        <div class="filter-tags" id="filterTags">
+            <!-- Dynamischer Inhalt via script.js -->
+        </div>
+    </div>
+
+    <!-- PRODUKT GRID -->
+    <main class="products-grid" id="productsGrid">
+        <!-- Dynamischer Inhalt via script.js -->
+    </main>
+
+    <!-- NEU: AUSZIEHBARE WARENKORB-SIDEBAR -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Dein Warenkorb</h3>
+            <button class="close-cart-btn" id="closeCartBtn">&times;</button>
+        </div>
+        
+        <!-- Liste der hinzugefügten Artikel -->
+        <div class="cart-items-container" id="cartItemsContainer">
+            <div class="cart-empty-msg">Dein Warenkorb ist noch leer.</div>
+        </div>
+
+        <!-- Warenkorb Gesamtsumme & Checkout -->
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Gesamtsumme:</span>
+                <span id="cartTotalValue">0,00 €</span>
+            </div>
+            <button class="checkout-btn" id="checkoutBtn">Zur Kasse bestellen</button>
+        </div>
+    </div>
+
+    <!-- Hintergrund-Abdunkelung bei geöffnetem Warenkorb -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

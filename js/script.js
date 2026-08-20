@@ -1,18 +1,18 @@
 // DATENSTRUKTUR MIT PREISEN UND DEINEN BILDNAMEN
 const products = [
     // --- HERREN-KATEGORIEN ---
-    { id: 1, gender: 'herren', type: 'Kurze Badehose', title: 'Retro Swim Trunks', price: 29.99, image: 'Trunks.jpg' },
-    { id: 2, gender: 'herren', type: 'Kielange Badehose', title: 'Classic Knee-Length Boardshort', price: 34.99, image: 'Boardshort.jpg' },
+    { id: 1, gender: 'herren', type: 'Kurze Badehose', title: 'Retro Swim Trunks', price: 29.99, image: './img/Trunks.jpg' },
+    { id: 2, gender: 'herren', type: 'Kielange Badehose', title: 'Classic Knee-Length Boardshort', price: 34.99, image: './img/Boardshort.jpg' },
     
     // --- DAMEN-KATEGORIEN ---
-    { id: 3, gender: 'damen', type: 'Monokini', title: 'High-Cut Midnight Monokini', price: 49.99, image: 'HOTBodysuit.jpg' },
-    { id: 4, gender: 'damen', type: 'Bikini', title: 'Front Cut-Out Inverted Set', price: 39.99, image: 'MicroBikini.jpg' },
-    { id: 5, gender: 'damen', type: 'Slingshot', title: 'Multi-Color Micro Slingshot', price: 44.99, image: 'MicroMonokini.jpg' },
-    { id: 6, gender: 'damen', type: 'Badeanzug', title: 'Minimalist Signature Swimsuit', price: 45.99, image: 'HOTBodysuit.jpg' },
-    { id: 7, gender: 'damen', type: 'Trägerloser Badeanzug', title: 'Bandeau Sleek One-Piece', price: 42.99, image: 'trägerlosBadeanzug.jpg' },
-    { id: 8, gender: 'damen', type: 'Tanga Strings', title: 'Ultra High-Cut String Set', price: 24.99, image: 'TBikini.jpg' },
-    { id: 9, gender: 'damen', type: 'Dünne BHs', title: 'Exotic Leopard String Set', price: 27.99, image: 'TBikini.jpg' },
-    { id: 10, gender: 'damen', type: 'Schmale BHs', title: 'Micro Off-Shoulder Bandeau Top', price: 29.99, image: 'MicroBikiniOffShoulder.jpg' }
+    { id: 3, gender: 'damen', type: 'Monokini', title: 'High-Cut Midnight Monokini', price: 49.99, image: './img/HOTBodysuit.jpg' },
+    { id: 4, gender: 'damen', type: 'Bikini', title: 'Front Cut-Out Inverted Set', price: 39.99, image: './img/MicroBikini.jpg' },
+    { id: 5, gender: 'damen', type: 'Slingshot', title: 'Multi-Color Micro Slingshot', price: 44.99, image: './img/MicroMonokini.jpg' },
+    { id: 6, gender: 'damen', type: 'Badeanzug', title: 'Minimalist Signature Swimsuit', price: 45.99, image: './img/HOTBodysuit.jpg' },
+    { id: 7, gender: 'damen', type: 'Trägerloser Badeanzug', title: 'Bandeau Sleek One-Piece', price: 42.99, image: './img/trägerlosBadeanzug.jpg' },
+    { id: 8, gender: 'damen', type: 'Tanga Strings', title: 'Ultra High-Cut String Set', price: 24.99, image: './img/TBikini.jpg' },
+    { id: 9, gender: 'damen', type: 'Dünne BHs', title: 'Exotic Leopard String Set', price: 27.99, image: './img/TBikini.jpg' },
+    { id: 10, gender: 'damen', type: 'Schmale BHs', title: 'Micro Off-Shoulder Bandeau Top', price: 29.99, image: './img/MicroBikiniOffShoulder.jpg' }
 ];
 
 // WARENKORB SPEICHER-ARRAY
